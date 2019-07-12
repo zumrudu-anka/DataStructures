@@ -45,7 +45,8 @@ void DynamicArray::resize(){
     for (int i = 0; i < this->capacity - 1; i++)
     {
         this->dynamic_array[i]=temp[i];
-    }    
+    }
+    delete[] temp;
 }
 
 int DynamicArray::get_capacity(){
@@ -66,4 +67,5 @@ int main(){
     {
         cout<<endl<<newarray.get_item(i);
     }
+    return 0;
 }
