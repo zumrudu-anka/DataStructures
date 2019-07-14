@@ -62,7 +62,7 @@ void Queue::pop(){
 		}
 	}
 	else{
-		cout<<endl<<"Stack is empty!"<<endl;
+		cout<<endl<<"Queue is empty!"<<endl;
 	}
 }
 
@@ -103,8 +103,6 @@ int main(){
     new_queue.pop();
     new_queue.pop();
     new_queue.pop();
-
-
-    
-
+	
+    return 0;
 }
