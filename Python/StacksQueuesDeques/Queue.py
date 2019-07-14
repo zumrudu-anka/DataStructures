@@ -15,6 +15,9 @@ class Queue():
     def size(self):
         return len(self.items)
 
+    def get_item(self,index):
+        return self.items[index]
+        
 queue = Queue()
 
 print(queue.queue_is_empty())
