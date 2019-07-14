@@ -12,6 +12,7 @@ class Stack{
 		void push(int item);
 		void pop();
 		int size();
+		int get_item(int index);
 		~Stack();
 };
 
@@ -25,6 +26,12 @@ int Stack::top(){
 		return this->stack_list[this->item_count-1];
 	}
 	//	must use try catch
+}
+
+int Stack::get_item(int index){
+	if(this->item_count!=0){
+		return this->stack_list[index];
+	}
 }
 
 void Stack::push(int item){
