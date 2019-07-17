@@ -48,6 +48,18 @@ void insert(node* s_l_list,int prev_data, int data){
     iter->next = new_node;
 }
 
+void remove(node* s_l_list,int data){
+    node* iter;
+    iter = s_l_list;
+    while(iter->next->n != data){
+        iter = iter->next;
+    }
+    node* temp = iter->next;
+    iter->next = temp->next;
+    delete[] temp;
+    temp = nullptr;
+}
+
 int main(){
     node* root;
     root = new node[1];
@@ -68,6 +80,11 @@ int main(){
     print_list(root);
     root = add_front(root,59);
     print_list(root);
+    remove(root,47);
+    print_list(root);
+    insert(root,6,47);
+    print_list(root);
+
 
     return 0;
     
