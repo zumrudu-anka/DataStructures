@@ -85,7 +85,6 @@ int main(){
     insert(root,6,47);
     print_list(root);
 
-
     return 0;
     
 }
