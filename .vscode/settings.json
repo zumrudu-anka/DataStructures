@@ -3,7 +3,9 @@
         "*.html": "html",
         "iterator": "cpp",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iosfwd": "cpp",
+        "xstring": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
