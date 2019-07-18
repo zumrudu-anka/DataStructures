@@ -1,5 +1,4 @@
 # DataStructures
-Data structures with Python and C++
 
 Python ve C++ dilleri aracılığıyla;
 
@@ -8,5 +7,4 @@ Python ve C++ dilleri aracılığıyla;
 - Queues
 - Deques
 - Linked Lists
-
-    yapılarının uygulanması.
+- Recursion
