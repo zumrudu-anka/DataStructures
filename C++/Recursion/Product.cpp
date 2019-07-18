@@ -19,7 +19,5 @@ int my_product2(int x, int y){
 int main(){
     cout<<my_product(2,3)<<endl<<my_product2(3,2);
 
-
-
     return 0;
 }
