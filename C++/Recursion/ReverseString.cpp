@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string.h>
 using namespace std;
 
 string reverse_string(string str){
