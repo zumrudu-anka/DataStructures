@@ -1,14 +1,3 @@
-# DataStructures
-
-Python ve C++ dilleri aracılığıyla;
-
-- Dynamic Arrays
-- Stacks
-- Queues
-- Deques
-- Linked Lists
-- Recursion
-
 <h2>Veri Yapılarına Genel bakış</h2>
 Veri Yapısı, verileri verimli kullanmak için verileri organize etmenin sistematik bir yoludur. Aşağıdaki terimler bir
 veri yapısının temel terimleridir.
