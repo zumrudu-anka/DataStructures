@@ -238,7 +238,7 @@ uygulamak için dizi kullanır. Array kavramlarını anlamak için önemli terim
 <h3>Dizi Temsili</h3>
 Diziler, farklı dillerde çeşitli şekillerde açıklanabilir. Örnek olarak, C dizi tanımını ele alalım.
 
-<img src="dizi_temsili.PNG" alt="dizi temsili"/>
+<img src="dizi_temsili.png" alt="dizi temsili"/>
 <img src="dizi_temsili1.png" alt="dizi temsili 1"/>
 
 
