@@ -1,4 +1,4 @@
-# [Orkhan ALIYEV](https://github.com/aliyevorkhan) arkadaşıma katkılarından dolayı teşekkür ederim
+## [Orkhan ALIYEV](https://github.com/aliyevorkhan) arkadaşıma katkılarından dolayı teşekkür ederim
 
 <h2>Veri Yapılarına Genel bakış</h2>
 Veri Yapısı, verileri verimli kullanmak için verileri organize etmenin sistematik bir yoludur. Aşağıdaki terimler bir
