@@ -1,3 +1,5 @@
+# [Orkhan ALIYEV](https://github.com/aliyevorkhan) arkadaşıma katkılarından dolayı teşekkür ederim
+
 <h2>Veri Yapılarına Genel bakış</h2>
 Veri Yapısı, verileri verimli kullanmak için verileri organize etmenin sistematik bir yoludur. Aşağıdaki terimler bir
 veri yapısının temel terimleridir.
@@ -475,8 +477,8 @@ Dairesel bir liste tarafından desteklenen önemli operasyonlar aşağıdadır.
 <h2>Kaynakça</h2>
 <ul>
     <li> http://www.tutorialspoint.com/ </li> 
-    <li>https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2008/lecture-notes/ </li>
-    <li>  </li>
+    <li> https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2008/lecture-notes/ </li>
+    
 </ul>
 
 <h3>Yapilacaklar</h3>
