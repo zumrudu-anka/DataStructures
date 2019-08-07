@@ -480,16 +480,3 @@ Dairesel bir liste tarafından desteklenen önemli operasyonlar aşağıdadır.
     <li> https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2008/lecture-notes/ </li>
     
 </ul>
-
-<h3>Yapilacaklar</h3>
-<ol>
-  <li>Yigin(Stack)</li>
-  <li>Ifade Ayristirma(Expression Parsing)</li>
-  <li>Kuyruk(Queue)</li>
-  <li>Agaclar(Trees)</li>
-  <li>Agac Gecisi(Tree Traversal)</li>
-  <li>Ikili Arama Agaci(Binary search tree)</li>
-  <li>AVL Agacilari(Adelson, Velski & Landis Trees)</li>
-  <li>Kapsayan Agac(Spanning Tree)</li>
-  <li>Graf Veri Yapisi(Graph Data Structure)</li>
-</ol> 
