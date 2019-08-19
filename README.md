@@ -25,6 +25,7 @@
             * [Tek Yönlü Bağlı Liste(Singly Linked List)](#tek-yönlü-bağlı-liste)
             * [Çift Yönlü Bağlı Liste(Doubly Linked List)](#çift-yönlü-bağlı-liste)
             * [Dairesel Bağlı Liste(Circular Linked List)](#dairesel-bağlı-liste)
+1. [Kaynakça](#kaynakça)
 
 ## Veri Yapılarına Genel Bakış
 
@@ -515,7 +516,7 @@ Dairesel bir liste tarafından desteklenen önemli operasyonlar aşağıdadır.
 </li>
 </ul>
 
-<h2>Kaynakça</h2>
+## Kaynakça
 <ul>
     <li> http://www.tutorialspoint.com/ </li> 
     <li> https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2008/lecture-notes/ </li>
