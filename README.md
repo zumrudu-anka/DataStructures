@@ -2,10 +2,30 @@
 
 ## İçindekiler
 
-* [Veri Yapılarına Genel Bakış](#veri-yapılarına-genel-bakış)
-* [Veri Yapısının Özellikleri](#veri-yapısının-özellikleri)
-* [Veri Yapısı İhtiyacı](#veri-yapısı-ihtiyacı)
-* [Yürütme Süresi Kutuları](#yürütme-süresi-kutuları)
+1. [Veri Yapılarına Genel Bakış](#veri-yapılarına-genel-bakış)
+1. [Veri Yapısının Özellikleri](#veri-yapısının-özellikleri)
+1. [Veri Yapısı İhtiyacı](#veri-yapısı-ihtiyacı)
+1. [Yürütme Süresi Kutuları](#yürütme-süresi-kutuları)
+1. [Temel Terminoloji](#temel-terminoloji)
+1. [Veri Yapıları Temelleri](#veri-yapıları-temelleri)
+    1. [Veri Tanımı](#veri-tanımı)
+    1. [Veri Nesnesi](#veri-nesnesi)
+    1. [Veri Tipi](#veri-tipi)
+        1. [Dahili Veri Tipi](#dahili-veri-tipi)
+        1. [Türetilmiş Veri Tipi](#türetilmiş-veri-tipi)
+1. [Diziler](#diziler)
+    1. [Dizilerde Temel İşlemler](#dizilerde-temel-işlemler)
+        1. [Ekleme İşlemi](#ekleme-işlemi)
+        1. [Silme İşlemi](#silme-işlemi)
+        1. [Arama İşlemi](#arama-işlemi)
+        1. [Güncelleme İşlemi](#güncelleme-işlemi)
+1. [Listeler](#listeler)
+    1. [Bağlı Liste(Linked List)](#bağlı-liste)
+        1. [Bağlı Liste Türleri](#bağlı-liste-türleri)
+            * [Tek Yönlü Bağlı Liste(Singly Linked List)](#tek-yönlü-bağlı-liste)
+            * [Çift Yönlü Bağlı Liste(Doubly Linked List)](#çift-yönlü-bağlı-liste)
+            * [Dairesel Bağlı Liste(Circular Linked List)](#dairesel-bağlı-liste)
+
 ## Veri Yapılarına Genel Bakış
 
 Veri Yapısı, verileri verimli kullanmak için verileri organize etmenin sistematik bir yoludur. Aşağıdaki terimler bir
@@ -96,7 +116,7 @@ sorun var.
     </li>
 </ul>
 
-<h3>Temel Terminoloji</h3>
+## Temel Terminoloji
 
 <ul>
     <li>
@@ -128,13 +148,12 @@ sorun var.
     </li>
 </ul>
 
-<h2>Veri Yapıları Temelleri</h2>
-Temel konseptler
+## Veri Yapıları Temelleri
 
 Veri Yapısı, verileri verimli kullanılabilecek şekilde organize etmenin bir yoludur. Bu döküman veri yapısı ile ilgili
 temel terimleri açıklamaktadır.
 
-<h3>Veri tanımı</h3>
+### Veri Tanımı
 
 Veri Tanımı, aşağıdaki özelliklere sahip belirli bir veriyi tanımlar.
 <ul>
@@ -152,11 +171,11 @@ Veri Tanımı, aşağıdaki özelliklere sahip belirli bir veriyi tanımlar.
     </li>
 </ul>
 
-<h3>Veri nesnesi</h3>
+### Veri Nesnesi
 
 Veri Nesnesi, verileri olan bir nesneyi temsil eder.
 
-<h3>Veri tipi</h3>
+### Veri tipi
 
 Veri türü, karşılık gelen veri türüyle kullanılabilecek değerleri, karşılık gelen veri türünde gerçekleştirilebilecek
 işlem türlerini belirleyen tam sayı, dizge vb. gibi çeşitli veri türlerini sınıflandırma yoludur. İki tip veri türü -
@@ -169,7 +188,7 @@ işlem türlerini belirleyen tam sayı, dizge vb. gibi çeşitli veri türlerini
     </li>
 </ul>
 
-<h3>Dahili Veri Tipi</h3>
+### Dahili Veri Tipi
 
 Bir dilin yerleşik desteğine sahip olduğu veri türleri, Dahili Veri türleri olarak bilinir. Örneğin, dillerin çoğu
 yerleşik veri türlerini takip etmeyi sağlar.
@@ -188,7 +207,7 @@ yerleşik veri türlerini takip etmeyi sağlar.
     </li>
 </ul>
 
-<h3>Türetilmiş Veri Türü</h3>
+### Türetilmiş Veri Tipi
 
 Birinden veya başka bir şekilde uygulanabileceğinden uygulamadan bağımsız olan veri tipleri, türetilmiş veri türleri
 olarak bilinir. Bu veri tipleri normalde birincil veya dahili veri tiplerinin ve bunlarla ilişkili işlemlerin
@@ -233,7 +252,7 @@ yapılması gereken işlemin sıklığına bağlıdır.
     </li>
 </ul>
 
-<h2>Diziler</h2>
+## Diziler
 
 Dizi, sabit sayıda öğeyi tutabilen bir kaptır ve bu öğeler aynı türden olmalıdır. Veri yapısının çoğu, algoritmalarını
 uygulamak için dizi kullanır. Array kavramlarını anlamak için önemli terimler aşağıdadır.
@@ -246,7 +265,9 @@ uygulamak için dizi kullanır. Array kavramlarını anlamak için önemli terim
         sahiptir.
     </li>
 </ul>
-<h3>Dizi Temsili</h3>
+
+## Dizi Temsili
+
 Diziler, farklı dillerde çeşitli şekillerde açıklanabilir. Örnek olarak, C dizi tanımını ele alalım.
 
 <img src="dizi_temsili.png" alt="dizi temsili"/>
@@ -265,7 +286,9 @@ Yukarıdaki resmlere göre, dikkate alınması gereken önemli noktalar aşağı
         Her elemana indeksi üzerinden erişilebilir.
     </li>
 </ul>
-<h3>Temel işlemler</h3>
+
+## Dizilerde Temel işlemler
+
 Bir dizi tarafından desteklenen temel işlemler aşağıdadır.
 <ul>
     <li>
@@ -288,21 +311,23 @@ C'de, bir dizinin boyutu ile başlatıldığında, öğelerine varsayılan değe
 <img src="veri_tipleri.jpg" alt="veri tipleri"/>
 
 
-<h3>Ekleme işlemi</h3>
+### Ekleme işlemi
 Ekleme işlemi, bir diziye bir veya daha fazla veri öğesi eklemektir. Gereksinime bağlı olarak, başında, sonunda veya
 herhangi bir dizi içerisinde yeni bir öğe eklenebilir.
 
 
-<h3>Silme İşlemi</h3>
+### Silme İşlemi
 Silme, var olan bir öğeyi diziden kaldırmayı ve dizinin tüm öğelerini yeniden düzenlemeyi ifade eder.
 
-<h3>Arama İşlemi</h3>
+### Arama İşlemi
 Bir dizi öğesini, değerini veya indisini temel alarak arama yapabilirsiniz.
 
-<h3>Güncelleme İşlemi</h3>
+### Güncelleme İşlemi
 Güncelleme işlemi, belirli bir indiste varolan bir öğenin güncellenmesi anlamına gelir.
 
-<h2>Bağlı Liste(Linked List)</h2>
+## Listeler
+
+## Bağlı Liste
 
 Bağlı bir liste, bağlantılar yoluyla birbirine bağlanmış bir dizi veri yapısıdır.
 
@@ -320,7 +345,9 @@ aşağıdadır.
         <b>LinkedList</b> - Linked List, First adındaki ilk linke bağlantıyı içerir.
     </li>
 </ul>
+
 <h3>Bağlı Liste Temsili</h3>
+
 Bağlı liste, her düğümün bir sonraki düğüme işaret ettiği bir düğüm zinciri olarak örneklendirilebilir.
 <img src="bagli_liste.jpg" alt="veri tipleri"/>
 Yukarıdaki resme göre, dikkate alınması gereken önemli noktalar aşağıdadır.
@@ -339,23 +366,25 @@ Yukarıdaki resme göre, dikkate alınması gereken önemli noktalar aşağıdad
     </li>
 </ul>
 
-<h3>Bağlı Liste Türleri</h3>
+### Bağlı Liste Türleri
 
-Çeşitli bağlantılı liste türleri aşağıdadır.
+Çeşitli Bağlı liste türleri aşağıdadır.
 <ul>
     <li>
-        <b>Basit Bağlantılı Liste</b> - Öğe gezinme sadece ileri.
+        <b>Tek Yönlü Bağlı Liste</b> - Öğe gezinme sadece ileri.
     </li>
     <li>
-        <b>Çift Bağlantılı Liste</b> - Öğeler ileri ve geri götürebilir.
+        <b>Çift Yönlü Bağlı Liste</b> - Öğeler ileri ve geri götürebilir.
     </li>
     <li>
-        <b>Dairesel Bağlantılı Liste</b> - Son öğe, bir sonraki gibi ilk öğenin bağlantısını içerir ve ilk öğe, önceki
+        <b>Dairesel Bağlı Liste</b> - Son öğe, bir sonraki gibi ilk öğenin bağlantısını içerir ve ilk öğe, önceki
         gibi
         bir son
         öğenin bağlantısını içerir.
     </li>
 </ul>
+
+## Tek Yönlü Bağlı Liste
 
 <h3>Temel işlemler</h3>
 
@@ -377,7 +406,7 @@ Bir liste tarafından desteklenen temel işlemler aşağıdadır.
     </li>
 </ul>
 
-<h2>Çift Yönlü Liste</h2>
+## Çift Yönlü Bağlı Liste
 
 Çift Yönlü Liste, Tek Yönlü Listeye göre kolayca ileri veya geri gezinmenin her iki yönde de mümkün olduğu
 Yönlü listenin bir çeşididir. İkili Yönlü liste kavramını anlamak için önemli terimler aşağıdadır.
@@ -399,6 +428,7 @@ Yönlü listenin bir çeşididir. İkili Yönlü liste kavramını anlamak için
 </ul>
 
 <h3>Çift Yönlü Liste</h3>
+
 <img src="cift_yonlu.jpg" alt="cift yonlu"/>
 Yukarıdaki resme göre, dikkate alınması gereken önemli noktalar aşağıdadır.
 <ul>
@@ -447,7 +477,9 @@ Bir liste tarafından desteklenen temel işlemler aşağıdadır.
         Geriye doğru göster - Listenin tamamını geriye doğru görüntüler.
     </li>
 </ul>
-<h2>Dairesel Bagli Liste(Circular Linked List)</h2>
+
+## Dairesel Bağlı Liste
+
 Dairesel Bağlı Liste, ilk öğenin son öğeye, son öğenin ilk öğeye işaret ettiği Bağlı listenin bir çeşididir.
 Hem Tekli Bağlı Liste hem de İkili Bağlı Liste, dairesel bir Bağlı listeye eklenebilir.
 
