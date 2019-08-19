@@ -1,8 +1,13 @@
 ## [Orkhan ALIYEV](https://github.com/aliyevorkhan) arkadaşıma katkılarından dolayı teşekkür ederim.
 
-[asdasd](#anchors-in-markdown)
+## İçindekiler
 
-<h2>Veri Yapılarına Genel bakış</h2>
+* [Veri Yapılarına Genel Bakış](#veri-yapılarına-genel-bakış)
+* [Veri Yapısının Özellikleri](#veri-yapısının-özellikleri)
+* [Veri Yapısı İhtiyacı](#veri-yapısı-ihtiyacı)
+* [Yürütme Süresi Kutuları](#yürütme-süresi-kutuları)
+## Veri Yapılarına Genel Bakış
+
 Veri Yapısı, verileri verimli kullanmak için verileri organize etmenin sistematik bir yoludur. Aşağıdaki terimler bir
 veri yapısının temel terimleridir.
 <ul>
@@ -19,7 +24,8 @@ veri yapısının temel terimleridir.
     </li>
 </ul>
 
-<h3>Veri Yapısının Özellikleri</h3>
+## Veri Yapısının Özellikleri
+
 <ul>
     <li>
         <b>Doğruluk</b> - Veri Yapısı uygulaması, arayüzünü doğru şekilde uygulamalıdır.
@@ -34,7 +40,7 @@ veri yapısının temel terimleridir.
     </li>
 </ul>
 
-<h3>Veri Yapısı İhtiyacı</h3>
+## Veri Yapısı İhtiyacı
 
 Uygulamalar karmaşıklaştıkça ve veri bakımından zenginleştikçe, uygulamaların bugünlerde karşılaştığı üç genel
 sorun var.
@@ -64,7 +70,8 @@ sorun var.
     gerekmeyebilecek ve gerekli veriler neredeyse anında aranabilecek şekilde düzenlenebilir.
 
 </ul>
-<h3>Yürütme Süresi Kutuları</h3>
+
+## Yürütme Süresi Kutuları
 
 Çeşitli veri yapısının yürütme süresini göreceli bir şekilde karşılaştırmak için kullanılan üç durum vardır.
 <ul>
@@ -182,8 +189,6 @@ yerleşik veri türlerini takip etmeyi sağlar.
 </ul>
 
 <h3>Türetilmiş Veri Türü</h3>
-
-# Anchors-in-markdown
 
 Birinden veya başka bir şekilde uygulanabileceğinden uygulamadan bağımsız olan veri tipleri, türetilmiş veri türleri
 olarak bilinir. Bu veri tipleri normalde birincil veya dahili veri tiplerinin ve bunlarla ilişkili işlemlerin
