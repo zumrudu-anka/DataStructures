@@ -25,6 +25,7 @@
             * [Tek Yönlü Bağlı Liste(Singly Linked List)](#tek-yönlü-bağlı-liste)
             * [Çift Yönlü Bağlı Liste(Doubly Linked List)](#çift-yönlü-bağlı-liste)
             * [Dairesel Bağlı Liste(Circular Linked List)](#dairesel-bağlı-liste)
+1. [Binary Tree(İkili Ağaç)](#binary-tree)
 1. [Kaynakça](#kaynakça)
 
 ## Veri Yapılarına Genel Bakış
@@ -515,6 +516,10 @@ Dairesel bir liste tarafından desteklenen önemli operasyonlar aşağıdadır.
     display - Listeyi görüntüler.
 </li>
 </ul>
+
+## Binary Tree
+
+Ağaçlar; dizilerden, bağlı listelerden, doğrusal veri yapıları olan yığın ve kuyruklardan farklı olarak hiyerarşik veri yapılarıdır. En üstteki düğüme ağacın kökü denir. Bir düğümün altındaki düğümlere o düğümün çocukları denir. Bir düğümün üzerindeki düğüme o düğümün ebeveyni adı verilir. Aşağıdaki örnek için, "A", "F" nin çocuğu ve "F", "A" nın ebeveynidir. Çocuğu olmayan düğümlere ise yaprak adı verilir.
 
 ## Kaynakça
 <ul>
