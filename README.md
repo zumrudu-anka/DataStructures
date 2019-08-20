@@ -25,7 +25,9 @@
             * [Tek Yönlü Bağlı Liste(Singly Linked List)](#tek-yönlü-bağlı-liste)
             * [Çift Yönlü Bağlı Liste(Doubly Linked List)](#çift-yönlü-bağlı-liste)
             * [Dairesel Bağlı Liste(Circular Linked List)](#dairesel-bağlı-liste)
-1. [Binary Tree(İkili Ağaç)](#binary-tree)
+1. [Trees(Ağaçlar)](#trees)
+    1. [Binary Trees(İkili Ağaçlar)](#binary-trees)
+        1. [Properties of Binary Trees(İkili Ağaçların Özellikleri)](#properties-of-binary-trees)
 1. [Kaynakça](#kaynakça)
 
 ## Veri Yapılarına Genel Bakış
@@ -517,9 +519,55 @@ Dairesel bir liste tarafından desteklenen önemli operasyonlar aşağıdadır.
 </li>
 </ul>
 
-## Binary Tree
+## Trees
 
 Ağaçlar; dizilerden, bağlı listelerden, doğrusal veri yapıları olan yığın ve kuyruklardan farklı olarak hiyerarşik veri yapılarıdır. En üstteki düğüme ağacın kökü denir. Bir düğümün altındaki düğümlere o düğümün çocukları denir. Bir düğümün üzerindeki düğüme o düğümün ebeveyni adı verilir. Aşağıdaki örnek için, "A", "F" nin çocuğu ve "F", "A" nın ebeveynidir. Çocuğu olmayan düğümlere ise yaprak adı verilir.
+
+<img src="binary_tree_0.png" alt="Binary Tree"/>
+
+#### Neden Ağaçlar?
+
+* Ağaçları doğal olarak hiyerarşi oluşturan bilgileri depolamak istediğimiz zaman kullanabiliriz. Örneğin, bir bilgisayarlardaki dosya sistemleri.
+* Ağaçlar orta düzeyde erişim veya arama sağlar(Bağlı listelerden daha hızlı, dizilerden daha yavaş).
+* Ağaçlar orta düzeyde ekleme veya silme sağlar(Dizilerden daha hızlı, sıralı olmayan bağlı listelerden daha yavaş).
+* Bağlı listelerdeki gibi ama dizilerden farklı olarak, ağaçların düğümleri işaretçiler kullanılarak bağlandığı için, düğüm sayısında üst sınır yoktur.
+
+### Binary Trees
+
+Elemanlarının her birinin en fazla 2 çocuğa sahip olduğu ağaçlara ikili ağaç denir. İkili bir ağaçtaki her düğümün sadece 2 çocuğu olabileceğinden, genellikle bunları sol ve sağ çocuk olarak adlandırırız.
+
+#### C Dilinde İkili Ağaç Gösterimi
+
+Bir ağaç, ağaçtaki en üst düğüme işaretçi ile temsil edilir. Ağaç boşsa, kök değeri NULL olur.
+Bir Ağaç düğümü aşağıdaki bölümleri içerir.
+* Veri
+* Sol çocuk için işaretçi
+* Sağ çocuk için işaretçi
+
+#### Properties of Binary Trees
+
+<ul>
+    <li>
+        <b>Bir ikili ağacın 'k' seviyesindeki maksimum düğüm sayısı 2<sup>k-1</sup>'dir.</b> Burada seviye, kökten düğüme giden yoldaki düğüm sayısıdır (kök ve düğüm dahil). Kök seviyesi 1'dir. Örneğin;<br>
+        Kök için(k = 1); Düğüm Sayısı = 2<sup>k - 1</sup> = 1 olur.
+    </li>
+    <li>
+        <b>H yüksekliğindeki bir ikili ağaçtaki maksimum toplam düğüm sayısı 2<sup>H</sup> - 1'dir.</b> Burada yükseklik, kökten yaprak yoluna kadar olan yüksekliktir. Tek düğümlü bir ağacın yüksekliği 1 olarak kabul edilir. Tüm seviyelerde maksimum düğüm varsa, o ağaçtaki maksimum düğüm sayısına ulaşılmıştır. Bu nedenle, H yüksekliğinde bir ikili ağaçtaki toplam maksimum düğüm sayısı 1 + 2 + 4 + .. + 2<sup>H-1</sup>'dir.<br>Bu ise H terimli basit bir geometrik seridir ve bu serinin toplamı 2<sup>H</sup> - 1'dir.
+    </li>
+    <li>
+        <b>N düğümlü bir ikili ağaç için mümkün olan minimum yükseklik veya minimum seviye sayısı Log<sub>2</sub> (N + 1)dir.</b>
+    </li>
+    <li>
+        <b>L sayıda yaprağı olan ikili ağaç var olabilir mi? Bunun için Log<sub>2</sub>L + 1 denkleminden faydalanırız.</b>
+Bir ikili ağaç, tüm seviyeleri tamamen dolu iken maksimum yaprak sayısına (ve minimum seviye sayısına) sahiptir. Tüm yaprakların L seviyesinde olduğunu düşünerek aşağıdaki eşitliği inceleyelim:<br>
+   L <= 2<sup>L-1</sup><br>
+   L = Log<sub>2</sub>L + 1  => eşitliği sağlanıyorsa L minimum seviye sayısıdır.
+    </li>
+    <li>
+    <b>Her düğümün 0 veya 2 çocuğunun olduğu bir ikili ağaçta, yaprak düğüm sayısı her zaman iki çocuklu düğümlerin sayısından bir fazladır.</b><br>
+   L = Yaprak Düğüm Sayısı<br>T = İki Çocuklu Düğüm Sayısı<br>L = T + 1
+    </li>
+</ul>
 
 ## Kaynakça
 <ul>
