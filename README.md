@@ -599,7 +599,8 @@ Bir ikili ağaç, tüm seviyeleri tamamen dolu iken maksimum yaprak sayısına (
 
 ## Kaynakça
 <ul>
-    <li> http://www.tutorialspoint.com/ </li> 
+    <li> http://www.tutorialspoint.com/ </li>
+    <li> https://www.geeksforgeeks.org/ </li> 
     <li> https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2008/lecture-notes/ </li>
     
 </ul>
