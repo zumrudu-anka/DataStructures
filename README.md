@@ -33,8 +33,6 @@
             * [Complete Binary Tree](#complete-binary-tree)
             * [Perfect Binary Tree](#perfect-binary-tree)
             * [Balanced Binary Tree](#balanced-binary-tree)
-            
-        
 1. [Kaynakça](#kaynakça)
 
 ## Veri Yapılarına Genel Bakış
