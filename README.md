@@ -573,12 +573,22 @@ Bir ikili ağaç, tüm seviyeleri tamamen dolu iken maksimum yaprak sayısına (
 
 <ul>
     <li>
-        <b>Full Binary Tree<b> - Her düğümünün 0 veya 2 çocuğunun olduğu ağaçlar Full Binary Tree(Tam İkili Ağaç) olarak adlandırılır. Aynı zamanda; yaprakları dışındaki tüm düğümlerinin iki çocuğu olan ağaçlar olarak da tanımlayabiliriz. Full Binary Tree örnekleri;<br>
-
-<img src="binary_tree_1.png" alt="Full Binary Tree"/>
-
-Tam ikili ağaçlarda yaprak düğüm sayısı iç düğüm sayısından 1 fazladır.<br>
-L = Yaprak düğüm sayısı, I = İç düğüm sayısı<br> L = I + 1
+        <b>Full Binary Tree</b> - Her düğümünün 0 veya 2 çocuğunun olduğu ağaçlar Full Binary Tree(Tam İkili Ağaç) olarak adlandırılır. Aynı zamanda; yaprakları dışındaki tüm düğümlerinin iki çocuğu olan ağaçlar olarak da tanımlayabiliriz. Full Binary Tree örnekleri;<br>
+    <img src="binary_tree_1.png" alt="Full Binary Tree"/><br>
+    Tam ikili ağaçlarda yaprak düğüm sayısı iç düğüm sayısından 1 fazladır.<br>
+    L = Yaprak düğüm sayısı, I = İç düğüm sayısı<br> L = I + 1
+    </li>
+    <li>
+        <b>Complete Binary Tree</b> - Son seviye hariç tüm seviyelerin tamamen dolu olduğu ve son seviyenin mümkün olduğu kadar düğüme sahip olduğu ağaçlar Complete Binary Tree(tamamlanmış ikili ağaçlar) olarak adlandırılırlar. Örnekler;<br>
+    <img src="binary_tree_2.png" alt="Complete Binary Tree"/><br>
+    </li>
+    <li>
+        <b>Perfect Binary Tree</b> - Tüm iç düğümlerin iki çocuğa sahip olduğu ve tüm yaprakların aynı seviyede olduğu ağaçlar Perfect Binary Tree(mükemmel ikili ağaç) olarak adlandırılırlar. H yüksekliğindeki mükemmel ikili ağaç 2<sup>H</sup> - 1 düğüme sahiptir. Örnekler;<br>
+    <img src="binary_tree_3.png" alt="Perfect Binary Tree"/><br>
+    </li>
+    <li>
+        <b>Balanced Binary Tree</b> - Her iç düğümün en fazla bir çocuğunun olduğu ağaçlar Balanced Binary Tree(dengeli ikili ağaç) olarak adlandırılırlar. Bu tür ağaçlar performans bakımından bağlı listelerle aynıdır. Bu ağaçlarda kök ile her yaprağın yolu aynıdır.<br>
+    <img src="binary_tree_4.png" alt="Balanced Binary Tree"/><br>
     </li>
 </ul>
 
