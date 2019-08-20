@@ -574,7 +574,11 @@ Bir ikili ağaç, tüm seviyeleri tamamen dolu iken maksimum yaprak sayısına (
 <ul>
     <li>
         <b>Full Binary Tree<b> - Her düğümünün 0 veya 2 çocuğunun olduğu ağaçlar Full Binary Tree(Tam İkili Ağaç) olarak adlandırılır. Aynı zamanda; yaprakları dışındaki tüm düğümlerinin iki çocuğu olan ağaçlar olarak da tanımlayabiliriz. Full Binary Tree örnekleri;<br>
-            
+
+<img src="binary_tree_1.png" alt="Full Binary Tree"/>
+
+Tam ikili ağaçlarda yaprak düğüm sayısı iç düğüm sayısından 1 fazladır.<br>
+L = Yaprak düğüm sayısı, I = İç düğüm sayısı<br> L = I + 1
     </li>
 </ul>
 
